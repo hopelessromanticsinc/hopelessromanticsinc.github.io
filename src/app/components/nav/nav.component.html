@@ -1,0 +1,23 @@
+<ul ngbNav #nav="ngbNav" class="nav-tabs">
+  <li ngbNavItem>
+    <button ngbNavLink>Oil painting</button>
+    <ng-template ngbNavContent></ng-template>
+  </li>
+  <li ngbNavItem>
+    <button ngbNavLink>Digital art</button>
+    <ng-template ngbNavContent></ng-template>
+  </li>
+
+  <li ngbNavItem>
+    <button ngbNavLink>Project Walrus</button>
+    <ng-template ngbNavContent>Mythology and Walrus</ng-template>
+  </li>
+
+  <li ngbNavItem>
+    <button ngbNavLink>About</button>
+    <ng-template ngbNavContent
+      >Some text on who and why this is being done</ng-template
+    >
+  </li>
+</ul>
+<div [ngbNavOutlet]="nav"></div>

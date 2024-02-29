@@ -21,11 +21,6 @@ import { AboutComponent } from './components/about/about.component';
   ],
   imports: [BrowserModule, AppRoutingModule, NgbModule],
   providers: [],
-  bootstrap: [
-    HomeComponent,
-    NavComponent,
-    HeaderComponent,
-    FooterComponent,
-  ],
+  bootstrap: [HomeComponent, NavComponent, HeaderComponent, FooterComponent],
 })
 export class AppModule {}

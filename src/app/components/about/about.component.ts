@@ -1,5 +1,6 @@
-import {Component, OnInit} from '@angular/core';
-import {HttpClient} from "@angular/common/http";
+import { Component, OnInit } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+import {StringcontentproviderService} from "../../services/stringcontentprovider.service";
 
 @Component({
   selector: 'app-about',
@@ -9,13 +10,17 @@ import {HttpClient} from "@angular/common/http";
 export class AboutComponent implements OnInit {
   public textContent: any;
 
-  constructor(private http: HttpClient) {
-
-  }
+  constructor(private http: HttpClient,private stringContentProvider:StringcontentproviderService) {}
 
   ngOnInit() {
-    this.http.get('/assets/content.json').subscribe(res => {
-      this.textContent = res
-    })
-  }
+    this.textContent=this.stringContentProvider.providePageContent().subscribe((data:any)=>{
+      this.textContent=data})
+    }
+
+
+
+    /*this.http.get('/assets/content.json').subscribe((res) => {
+      this.textContent = res;
+    });*/
+
 }

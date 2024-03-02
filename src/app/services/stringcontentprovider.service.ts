@@ -1,18 +1,15 @@
-import {inject, Injectable} from '@angular/core';
-import {HttpClient} from "@angular/common/http";
-import {Observable} from "rxjs";
+import { inject, Injectable } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+import { Observable } from 'rxjs';
 
 @Injectable({
   providedIn: 'root',
 })
 export class StringcontentproviderService {
-
-  constructor(private http:HttpClient) {}
+  constructor(private http: HttpClient) {}
 
   providePageContent(): Observable<any> {
     let textContent;
-    return this.http.get('/assets/content.json')
-    };
-
+    return this.http.get('/assets/content.json');
   }
-
+}

@@ -1,13 +1,19 @@
 {
   "pages": [
     {
-      "about": "asdfljkasdf"
+      "pageName": "about",
+      "mainContent": "asdfljkasdf"
+    },
+    {"pageName": "Oil Painting",
+      "mainContent": "asdfljkasdf"
+    },
+    {"pageName": "Digital Art",
+      "mainContent": "asdfljkasdf"
     },
     {
-      "oil": "text about oil-painting"
-    },
-    {
-      "project walrus": "walrus-text"
+      "pageName": "Project Walrus",
+      "mainContent": "asdfljkasdf"
+
     }
   ]
 }

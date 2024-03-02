@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import {StringcontentproviderService} from "../../services/stringcontentprovider.service";
+import { StringcontentproviderService } from '../../services/stringcontentprovider.service';
+import {PageContent} from "../../Interfaces/PageContent";
 
 @Component({
   selector: 'app-about',
@@ -8,19 +9,28 @@ import {StringcontentproviderService} from "../../services/stringcontentprovider
   styleUrls: ['./about.component.scss'],
 })
 export class AboutComponent implements OnInit {
-  public textContent: any;
+  public allContent: PageContent[]=[]
+  public textContent!: PageContent;
 
-  constructor(private http: HttpClient,private stringContentProvider:StringcontentproviderService) {}
+  constructor(
+    private http: HttpClient,
+    private stringContentProvider: StringcontentproviderService,
+  ) {
+  }
 
   ngOnInit() {
-    this.textContent=this.stringContentProvider.providePageContent().subscribe((data:any)=>{
-      this.textContent=data})
-    }
+    let jsonObj = this.stringContentProvider
+      .providePageContent()
+      .subscribe((obj)=>
+      {
+        this.textContent=obj.pages[0] as PageContent
+        console.log(this.textContent)
+      });
 
 
+  }
 
-    /*this.http.get('/assets/content.json').subscribe((res) => {
+  /*this.http.get('/assets/content.json').subscribe((res) => {
       this.textContent = res;
     });*/
-
 }

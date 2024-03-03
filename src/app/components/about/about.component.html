@@ -1,9 +1,9 @@
 <div class="about-wrapper">
   <div *ngIf="textContent">
-    <h2>{{ textContent.pageName }}</h2>
-    <p>{{ textContent.mainContent }}</p>
-    <div *ngFor="let p of textContent.paragraphs">
-      <p>{{ p }}</p>
+    <h2>{{ textContent.pageName}}</h2>
+    <div *ngFor="let paragraph of textContent.paragraphs">
+      <p>{{paragraph.subheader}}</p>
+      <p>{{paragraph.paragraph}}</p>
     </div>
   </div>
 </div>

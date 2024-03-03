@@ -10,6 +10,6 @@ export class StringcontentproviderService {
 
   providePageContent(): Observable<any> {
     let textContent;
-    return this.http.get('/assets/content.json');
+    return this.http.get('/assets/TextContent/content.json');
   }
 }

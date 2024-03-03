@@ -10,6 +10,8 @@ import { ExampleComponent } from './components/example/example.component';
 import { AboutComponent } from './components/about/about.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ProjectWalrusComponent } from './components/project-walrus/project-walrus.component';
+import { CookienoticeComponent } from './components/cookienotice/cookienotice.component';
+import { InfomodalComponent } from './components/infomodal/infomodal.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +21,8 @@ import { ProjectWalrusComponent } from './components/project-walrus/project-walr
     ExampleComponent,
     AboutComponent,
     ProjectWalrusComponent,
+    CookienoticeComponent,
+    InfomodalComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, NgbModule, HttpClientModule],
   providers: [],

@@ -2,5 +2,8 @@
   <div *ngIf="textContent">
     <h2>{{ textContent.pageName }}</h2>
     <p>{{ textContent.mainContent }}</p>
+    <div *ngFor="let p of textContent.paragraphs">
+      <p>{{ p }}</p>
+    </div>
   </div>
 </div>

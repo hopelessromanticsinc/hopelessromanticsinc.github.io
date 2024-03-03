@@ -9,6 +9,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { ExampleComponent } from './components/example/example.component';
 import { AboutComponent } from './components/about/about.component';
 import { HttpClientModule } from '@angular/common/http';
+import { ProjectWalrusComponent } from './components/project-walrus/project-walrus.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { HttpClientModule } from '@angular/common/http';
     FooterComponent,
     ExampleComponent,
     AboutComponent,
+    ProjectWalrusComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, NgbModule, HttpClientModule],
   providers: [],

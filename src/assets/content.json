@@ -2,7 +2,8 @@
   "pages": [
     {
       "pageName": "about",
-      "mainContent": "asdfljkasdf"
+      "mainContent": "asdfljkasdf",
+      "paragraphs": ["Pargagraph 1", "Paragraph 2", "Paragraph 3"]
     },
     { "pageName": "Oil Painting", "mainContent": "asdfljkasdf" },
     { "pageName": "Digital Art", "mainContent": "asdfljkasdf" },

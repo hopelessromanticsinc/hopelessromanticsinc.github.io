@@ -4,16 +4,11 @@
       "pageName": "about",
       "mainContent": "asdfljkasdf"
     },
-    {"pageName": "Oil Painting",
-      "mainContent": "asdfljkasdf"
-    },
-    {"pageName": "Digital Art",
-      "mainContent": "asdfljkasdf"
-    },
+    { "pageName": "Oil Painting", "mainContent": "asdfljkasdf" },
+    { "pageName": "Digital Art", "mainContent": "asdfljkasdf" },
     {
       "pageName": "Project Walrus",
       "mainContent": "asdfljkasdf"
-
     }
   ]
 }

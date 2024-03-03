@@ -1,9 +1,14 @@
 {
-  "pageName": "Title",
-  "mainContent": "asdfljkasdf",
-  "paragraphs": [
-    "Pargagraph 1",
-    "Paragraph 2",
-    "Paragraph 3"
-  ]
-}
+      "pageName": "pagename",
+      "content": [
+        {
+          "subheader": "subheader",
+          "paragraph": "paragraph 1"
+        },
+        {
+          "subheader": "Why Hopeless Romantics INC?",
+          "paragraph": "According to dictionary.com a hopless romantic refers to a person who holds sentimental and idealistic views on love, especially in spite of experience, evidence, or exhortations otherwise. Yes I also had to google what 'exhortation' means. Anyways. What does that mean? My art is lot about love, personal development and passion in any way, shape or form. Hopeless romantics INC is not a trademark or anything. Due to the nature of this project I just thought it would be a cool name tbh. "
+        }
+      ]
+    }
+

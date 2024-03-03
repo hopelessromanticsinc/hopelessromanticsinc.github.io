@@ -1,4 +1,4 @@
-export interface Paragraph{
-  subheader:string,
-  paragraph:string,
+export interface Paragraph {
+  subheader: string;
+  paragraph: string;
 }

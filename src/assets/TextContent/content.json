@@ -4,12 +4,12 @@
       "pageName": "about",
       "content": [
         {
-          "subheader": "Who am I and why am I doing this???",
+          "subheader": "Who am I and what is this?",
           "paragraph": "Hello, my name is Dimitri Fankhauser. I'm a student at HSLU and I work as an Intern in Software development. I made this page entirely myself in order to show some of my art as well as to get better at web-development. As you can see, I have a strong passion for Oil-painting"
         },
         {
           "subheader": "Why Hopeless Romantics INC?",
-          "paragraph": "Some interesting reason..."
+          "paragraph": "According to dictionary.com a hopless romantic refers to a person who holds sentimental and idealistic views on love, especially in spite of experience, evidence, or exhortations otherwise. Yes I also had to google what 'exhortation' means. Anyways. What does that mean? My art is lot about love, personal development and passion in any way, shape or form. Hopeless romantics INC is not a trademark or anything. Due to the nature of this project I just thought it would be a cool name tbh. "
         }
       ]
     }

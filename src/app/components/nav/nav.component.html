@@ -11,6 +11,13 @@
       <app-example></app-example>
     </ng-template>
   </li>
+  <li [ngbNavItem]="3">
+    <button ngbNavLink>Project Walrus</button>
+    <ng-template ngbNavContent>
+      <app-project-walrus></app-project-walrus>
+    </ng-template>
+  </li>
+
 </ul>
 
 <div [ngbNavOutlet]="nav" class="mt-2"></div>

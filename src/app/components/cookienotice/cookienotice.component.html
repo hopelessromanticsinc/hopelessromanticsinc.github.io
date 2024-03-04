@@ -1,26 +1,37 @@
 <ngb-alert>
   Cookie Notice: By accepting cookies you pledge your soul to the devil
-  <button (click)="open(content)">
-    Accept
-  </button>
-  <button (click)="open(nonbasiccontent)">
-    Reject
-  </button>
+  <button (click)="open(content)">Accept</button>
+  <button (click)="open(nonbasiccontent)">Reject</button>
 
   <ng-template #content let-modal>
     <div class="modal-header">
-      <h6 class="modal-title" id="modal-basic-title">This was a joke. Congratulations for getting it</h6>
-      <p>I'm not collecting any data. I doubt there's much buisness-value in collecting data about this site lol</p>
-      <button type="button" class="btn-close" aria-label="Close" (click)="modal.dismiss('Cross click')"></button>
+      <h6 class="modal-title" id="modal-basic-title">
+        This was a joke. Congratulations for getting it
+      </h6>
+      <p>
+        I'm not collecting any data. I doubt there's much buisness-value in
+        collecting data about this site lol
+      </p>
+      <button
+        type="button"
+        class="btn-close"
+        aria-label="Close"
+        (click)="modal.dismiss('Cross click')"
+      ></button>
     </div>
   </ng-template>
   <ng-template #nonbasiccontent let-modal>
     <div class="modal-header">
-      <p> Hereby your soul is pledged to the devil anyways.</p>
-      <p>Just kidding. I'm not collecting any data. I bet your's is boring though</p>
-      <button type="button" class="btn-close" aria-label="Close" (click)="modal.dismiss('Cross click')"></button>
+      <p>Hereby your soul is pledged to the devil anyways.</p>
+      <p>
+        Just kidding. I'm not collecting any data. I bet your's is boring though
+      </p>
+      <button
+        type="button"
+        class="btn-close"
+        aria-label="Close"
+        (click)="modal.dismiss('Cross click')"
+      ></button>
     </div>
   </ng-template>
-
-
 </ngb-alert>

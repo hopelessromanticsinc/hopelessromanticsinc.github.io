@@ -1,1 +1,2 @@
 npx prettier . --write
+ng build --output-path docs --base-href hopeless-romantics-inc

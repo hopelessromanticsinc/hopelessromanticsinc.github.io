@@ -2,3 +2,15 @@
 
 /* Importing Bootstrap SCSS file. */
 @import "bootstrap/scss/bootstrap";
+
+html,
+body,
+app-root {
+  height: 100%;
+}
+body {
+  margin-bottom: 0;
+  margin-top: 0;
+  height: 100vh;
+  flex-direction: column;
+}

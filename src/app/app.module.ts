@@ -26,6 +26,11 @@ import { InfomodalComponent } from './components/infomodal/infomodal.component';
   ],
   imports: [BrowserModule, AppRoutingModule, NgbModule, HttpClientModule],
   providers: [],
-  bootstrap: [NavComponent, HeaderComponent, FooterComponent],
+  bootstrap: [
+    NavComponent,
+    HeaderComponent,
+    CookienoticeComponent,
+    FooterComponent,
+  ],
 })
 export class AppModule {}

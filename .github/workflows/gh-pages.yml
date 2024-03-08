@@ -1,7 +1,6 @@
 name: GitHub Pages
 
-on:
-  [push,workflow_dispatch]
+on: [push, workflow_dispatch]
 
 jobs:
   deploy:
